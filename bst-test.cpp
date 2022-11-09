@@ -10,8 +10,10 @@ int main(int argc, char *argv[])
 {
     // Binary Search Tree tests
     BinarySearchTree<char,int> bt;
-    bt.insert(std::make_pair('a',1));
-    bt.insert(std::make_pair('b',2));
+    bt.insert(std::make_pair('a',5));
+    bt.insert(std::make_pair('b',6));
+    bt.insert(std::make_pair('c',4));
+    bt.print();
     
     cout << "Binary Search Tree contents:" << endl;
     for(BinarySearchTree<char,int>::iterator it = bt.begin(); it != bt.end(); ++it) {

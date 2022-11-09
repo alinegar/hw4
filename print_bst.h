@@ -282,9 +282,7 @@ void BinarySearchTree<Key, Value>::printRoot (Node<Key, Value>* root) const
             {
                 std::cout << elementIter->second;
             }
-
             std::cout << ')' << std::endl;
-
 
         }
     }
